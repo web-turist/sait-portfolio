@@ -5,6 +5,7 @@
 @import 'blocks/title';
 @import 'blocks/button';
 @import 'blocks/sidepanel';
+@import 'blocks/hamburger';
 
 
 * {
@@ -14,9 +15,6 @@
 }
 
 .container {
-    position: absolute;
-    top: 240px;
-    left: 250px;
     width: 1140px;
     margin: 0 auto;
 }
