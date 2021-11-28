@@ -1,18 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'base/variables';
 @import 'base/mixins';
-@import 'blocks/promo';
-@import 'blocks/title';
-@import 'blocks/button';
-@import 'blocks/sidepanel';
-@import 'blocks/hamburger';
-@import 'blocks/about';
-@import 'blocks/resume';
-@import 'blocks/skills';
-@import 'blocks/portfolio';
-@import 'blocks/price';
-@import 'blocks/contacts';
-
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -24,11 +12,6 @@ body {
     position: relative;
 }
 
-.logo {
-    position: absolute;
-    top: 5px;
-    left: 30px;
-}
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -40,3 +23,17 @@ body {
     background-color: $main-color;
     margin: 25px auto 0 auto;
 }
+
+
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/sidepanel';
+@import 'blocks/hamburger';
+@import 'blocks/about';
+@import 'blocks/resume';
+@import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/price';
+@import 'blocks/contacts';
+@import 'blocks/promo-media';
