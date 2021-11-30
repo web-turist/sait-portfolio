@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+    .portfolio {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 280px);
+            justify-content: space-around;
+            grid-auto-rows: 280px;
+            row-gap: 35px;
+            .horizontal, .vertical {
+                grid-row: unset;
+                grid-column: unset;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio {
+        margin-top: 46px;
+        &__wrapper {
+            margin-top: 40px;
+            row-gap: 20px;
+        }
+    }
+}

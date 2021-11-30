@@ -1,0 +1,33 @@
+@media (max-width: 1200px) {
+    .skills {
+        &__wrapper {
+            justify-content: center;
+        }
+        &__ratings {
+            grid-template: repeat(2,minmax(70px,auto))/repeat(auto-fill,300px);
+            justify-content: center;
+            grid-auto-rows: minmax(70px, auto);
+            &-line {
+                width: 300px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+    .title {
+        &_fz36 {
+            line-height: 36px;
+        }
+    }
+    .skills {
+        padding-top: 46px;
+        &__wrapper {
+            margin-top: 20px;
+        }
+        &__ratings {
+            margin-top: 40px;
+        }
+    }
+}
